@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cc_management *.css
+recursive-include cc_management *.csv
+recursive-include cc_management *.html
+recursive-include cc_management *.ico
+recursive-include cc_management *.js
+recursive-include cc_management *.json
+recursive-include cc_management *.md
+recursive-include cc_management *.png
+recursive-include cc_management *.py
+recursive-include cc_management *.svg
+recursive-include cc_management *.txt
+recursive-exclude cc_management *.pyc
