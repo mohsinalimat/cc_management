@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-12-03 12:02:01.662196",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "credit_limit",
+  "cut_off_day",
+  "due_date_day",
+  "cut_off",
+  "due_date"
+ ],
+ "fields": [
+  {
+   "columns": 1,
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "columns": 1,
+   "fieldname": "credit_limit",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Credit Limit",
+   "non_negative": 1,
+   "options": "USD",
+   "precision": "0"
+  },
+  {
+   "columns": 2,
+   "fieldname": "cut_off",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Cut Off",
+   "read_only": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Due Date",
+   "read_only": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "cut_off_day",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Cut Off Day",
+   "non_negative": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "due_date_day",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Due Date Day"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-12-03 16:32:05.898679",
+ "modified_by": "Administrator",
+ "module": "Credit Card Management",
+ "name": "Credit Card",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_copy": 1,
+ "creation": "2022-12-03 12:03:11.679310",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "amount",
+  "column_break_2",
+  "usage_day",
+  "section_break_4",
+  "credit_cards",
+  "section_break_6",
+  "results"
+ ],
+ "fields": [
+  {
+   "fieldname": "credit_cards",
+   "fieldtype": "Table",
+   "label": "Credit Cards",
+   "options": "Credit Card"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount to Use",
+   "options": "USD"
+  },
+  {
+   "fieldname": "results",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "usage_day",
+   "fieldtype": "Date",
+   "label": "Usage Day"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-12-05 07:18:15.629750",
+ "modified_by": "Administrator",
+ "module": "Credit Card Management",
+ "name": "Credit Card Tool",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,23 @@
+<div class="results">
+    <p>Si se realiza el consumo el: <b>{{ doc.usage_day }}</b></p>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <td>Tarjeta</td>
+                <td>Fecha de Corte</td>
+                <td>Fecha de Pago</td>
+            </tr>
+        </thead>
+        <tbody>
+        {% for card in cards %}
+            <tr class="{% if card.credit_limit < doc.amount %}table-danger{% endif %}">
+                <td>{{ card.name1 }} - ${{ frappe.format(card.credit_limit) }}</td>
+                <td>{{ card.cut_off }}</td>
+                <td>{{ card.due_date }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+</div>
