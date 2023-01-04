@@ -11,7 +11,8 @@
   "cut_off_day",
   "due_date_day",
   "cut_off",
-  "due_date"
+  "due_date",
+  "last_due_date"
  ],
  "fields": [
   {
@@ -61,12 +62,20 @@
    "fieldtype": "Int",
    "in_list_view": 1,
    "label": "Due Date Day"
+  },
+  {
+   "columns": 1,
+   "fieldname": "last_due_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Last Due Date",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-12-03 16:32:05.898679",
+ "modified": "2022-12-06 08:08:08.570676",
  "modified_by": "Administrator",
  "module": "Credit Card Management",
  "name": "Credit Card",

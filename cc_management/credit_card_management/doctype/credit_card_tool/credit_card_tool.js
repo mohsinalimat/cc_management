@@ -7,9 +7,12 @@ function readable_date(date_str) {
 	})
 }
 
+// TODO ADD PAYMENT DAYS AFTER
+
 frappe.ui.form.on('Credit Card Tool', {
 
 	refresh: function (frm) {
+		// If Usage Day is before today, set as today
 		frm.trigger('amount');
 	},
 
